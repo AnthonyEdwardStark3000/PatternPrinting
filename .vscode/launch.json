@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LateComers",
+            "request": "launch",
+            "mainClass": "LateComers",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch LowestMilegeCar",
             "request": "launch",
             "mainClass": "LowestMilegeCar",
