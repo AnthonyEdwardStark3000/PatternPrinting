@@ -6,23 +6,50 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch LateComers",
+            "name": "Launch ReverseTill",
             "request": "launch",
-            "mainClass": "LateComers",
+            "mainClass": "ReverseTill",
             "projectName": "patternprint_64c1b45f"
         },
         {
             "type": "java",
-            "name": "Launch LowestMilegeCar",
+            "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "LowestMilegeCar",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaOfRectangle",
+            "request": "launch",
+            "mainClass": "AreaOfRectangle",
             "projectName": "patternprint_64c1b45f"
         },
         {
             "type": "java",
-            "name": "Launch OnlyAlphabets",
+            "name": "Launch ArrayListDemo",
             "request": "launch",
-            "mainClass": "OnlyAlphabets",
+            "mainClass": "ArrayListDemo",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AverageSpeed",
+            "request": "launch",
+            "mainClass": "AverageSpeed",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalendarMonth",
+            "request": "launch",
+            "mainClass": "CalendarMonth",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountOfWords",
+            "request": "launch",
+            "mainClass": "CountOfWords",
             "projectName": "patternprint_64c1b45f"
         },
         {
@@ -34,6 +61,20 @@
         },
         {
             "type": "java",
+            "name": "Launch FirstRepeatingCharacterFromLast",
+            "request": "launch",
+            "mainClass": "FirstRepeatingCharacterFromLast",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstUpperCase",
+            "request": "launch",
+            "mainClass": "FirstUpperCase",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch HashTableExample",
             "request": "launch",
             "mainClass": "HashTableExample",
@@ -41,15 +82,72 @@
         },
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch LateComers",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "LateComers",
+            "projectName": "patternprint_64c1b45f"
         },
         {
             "type": "java",
-            "name": "Launch ArrayListDemo",
+            "name": "Launch LateComersProgram",
             "request": "launch",
-            "mainClass": "ArrayListDemo",
+            "mainClass": "LateComersProgram",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LowestMilegeCar",
+            "request": "launch",
+            "mainClass": "LowestMilegeCar",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingPalindrome",
+            "request": "launch",
+            "mainClass": "MissingPalindrome",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnlyAlphabets",
+            "request": "launch",
+            "mainClass": "OnlyAlphabets",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeMissingLetter",
+            "request": "launch",
+            "mainClass": "PalindromeMissingLetter",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintCharacter",
+            "request": "launch",
+            "mainClass": "PrintCharacter",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatingCharacter",
+            "request": "launch",
+            "mainClass": "RepeatingCharacter",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopScoringBatsman",
+            "request": "launch",
+            "mainClass": "TopScoringBatsman",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopScoringStudent",
+            "request": "launch",
+            "mainClass": "TopScoringStudent",
             "projectName": "patternprint_64c1b45f"
         },
         {
@@ -57,6 +155,13 @@
             "name": "Launch pattern1",
             "request": "launch",
             "mainClass": "pattern1",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch program",
+            "request": "launch",
+            "mainClass": "program",
             "projectName": "patternprint_64c1b45f"
         }
     ]
