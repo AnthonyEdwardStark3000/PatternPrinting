@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CommonCharacters",
+            "request": "launch",
+            "mainClass": "CommonCharacters",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch countPrimeNumbers",
+            "request": "launch",
+            "mainClass": "countPrimeNumbers",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImmediatePrimeNUmbers",
+            "request": "launch",
+            "mainClass": "ImmediatePrimeNUmbers",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateString",
+            "request": "launch",
+            "mainClass": "RotateString",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RearrangeDesc",
+            "request": "launch",
+            "mainClass": "RearrangeDesc",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nthnumber",
+            "request": "launch",
+            "mainClass": "Nthnumber",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExpandCharacters",
+            "request": "launch",
+            "mainClass": "ExpandCharacters",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseTill",
             "request": "launch",
             "mainClass": "ReverseTill",
