@@ -9,7 +9,6 @@ public class PalindromeMissingLetter {
         for(int i=0;i<ch.length;i++)
         {
             int check = ch.length-1;
-
                 if(ch[i]<=ch[check]){
                 System.out.println(ch[i]);
                 System.out.println("INdex:"+i+"\nchecker:"+check);
