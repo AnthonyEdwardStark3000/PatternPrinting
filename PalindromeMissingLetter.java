@@ -5,17 +5,23 @@ public class PalindromeMissingLetter {
         String input;
         System.out.println("\nENter a string:");
         input = sc.nextLine();
-        char[] ch = input.toCharArray();
-        for(int i=0;i<ch.length;i++)
+        String backup = input;
+        String string1 = input.substring(0,(input.length()/2)+1);
+        String string2 = input.substring((input.length()/2));
+        String newString2="";
+        System.out.println(string1+"\t"+string2);
+        for(int i=string2.length()-1;i>=0;i--)
         {
-            int check = ch.length-1;
-                if(ch[i]<=ch[check]){
-                System.out.println(ch[i]);
-                System.out.println("INdex:"+i+"\nchecker:"+check);
+            newString2+=string2.charAt(i);
+        }
+        for(int i=string1.length()-1;i>=0;i--)
+        {
+            for(int j=0;j<string2.length();j++)
+            {
+                if(string1.charAt(i)==newString2.charAt(j)){
+                    System.out.println(string1.charAt(i));
                 }
-            else{
-                check--;
-            }  
-        }       
+            }
+        }
         }
 }

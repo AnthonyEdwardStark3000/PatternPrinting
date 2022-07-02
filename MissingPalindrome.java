@@ -1,23 +1,28 @@
 import java.util.*;
-public class MissingPalindrome{
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String s=sc.next();
-        char[] c=s.toCharArray();
-        for(int i=0,j=c.length-1;i<c.length/2;i++,j--)
+public class MissingPalindrome {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String input;
+        System.out.println("\nENter a string:");
+        input = sc.nextLine();
+        char[] ch = input.toCharArray();
+        for(int i=0;i<ch.length/2;i++)
         {
-            if(c[i]!=c[j])
+            for(int j=ch.length-1;j>=i;j--)
             {
-                if(c[i]==c[j-1]&&(i!=j-1))
-                {
-                    System.out.print(c[j]);
-                    break;
+                if(ch[i]!=ch[j]){
+                    if(ch[i]==ch[j-1]&&(i!=j-1))
+                    {
+                        System.out.println(ch[j]);
+                        break;
+                    }
+                    else{
+                        System.out.println(ch[i]);
+                        break;
+                    }
                 }
-                else{
-                    System.out.print(c[i]);
-                    break;
-                }
-            }
+                    
         }
+}
 }
 }

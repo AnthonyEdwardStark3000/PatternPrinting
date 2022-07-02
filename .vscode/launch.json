@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SumofSequence",
+            "request": "launch",
+            "mainClass": "SumofSequence",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckPalindromeRecurssion",
+            "request": "launch",
+            "mainClass": "CheckPalindromeRecurssion",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintMiddle3",
+            "request": "launch",
+            "mainClass": "PrintMiddle3",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleCalculator",
+            "request": "launch",
+            "mainClass": "SimpleCalculator",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch FunctionRecurssion",
             "request": "launch",
             "mainClass": "FunctionRecurssion",
