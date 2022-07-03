@@ -5,11 +5,14 @@ public class ReverseTill{
         System.out.println("\nEnter the string:");
         String input = sc.nextLine();
         String[] values = input.split("_");
-        String reversedString="";
+        String reversedString=""; 
 
-        for(int i=values[0].length()-1;i>=0;i--)
+        for(int i=values[0].length();i>=0;i--)
         {   
-            reversedString+= input.charAt(i);
+            if(input.charAt(i)!='_'){
+                reversedString+= input.charAt(i);
+                System.out.println(reversedString);
+            }
         }
 
         if(values.length<2){
@@ -17,8 +20,7 @@ public class ReverseTill{
         }
         else
         {
-            System.out.println(reversedString);
-            System.out.print("_"+values[1]);
+            System.out.println(reversedString+"_"+values[1]);
         }
     }
 }
