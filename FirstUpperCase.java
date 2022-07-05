@@ -1,22 +1,35 @@
-import java.util.*;
-public class FirstUpperCase{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("\nEnter a string:");
-        String input = sc.nextLine();
-        String result = "";
-        char[] ch = input.toCharArray();
-        for(int i=0;i<input.length();i++){
-           if(i==0 && ch[i]!=' '|| ch[i] !=' '&& ch[i]==' '){
-            if(ch[i]>='a' && ch[i]<='z'){
-                ch[i] = (char)(ch[i]-'a' + 'A');
-            }
-            else if(ch[i]>='A' && ch[i]<='Z'){
-                ch[i] = (char)(ch[i]+'a' - 'A');
-            }
-                result = new String(ch);
-           }
+class StringAlternateLetters {
+    public static void main(String[] args) {
+  
+      // create a string
+      String message = "she is      happy";
+  
+      // stores each characters to a char array
+      char[] charArray = message.toCharArray();
+      boolean foundSpace = true;
+  
+      for(int i = 0; i < charArray.length; i++) {
+  
+        // if the array element is a letter
+        if(Character.isLetter(charArray[i])) {
+  
+          // check space is present before the letter
+          if(foundSpace) {
+  
+            // change the letter into uppercase
+            charArray[i] = Character.toUpperCase(charArray[i]);
+            foundSpace = false;
+          }
         }
-        System.out.println(result);
+  
+        else {
+          // if the new character is not character
+          foundSpace = true;
+        }
+      }
+  
+      // convert the char array to the string
+      message = String.valueOf(charArray);
+      System.out.println("Message: " + message);
     }
-}
+  }

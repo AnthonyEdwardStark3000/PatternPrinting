@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountCommonCharactersinStrings",
+            "request": "launch",
+            "mainClass": "CountCommonCharactersinStrings",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringAlternateLetters",
+            "request": "launch",
+            "mainClass": "StringAlternateLetters",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixSum",
+            "request": "launch",
+            "mainClass": "MatrixSum",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMap",
+            "request": "launch",
+            "mainClass": "HashMap",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch SumofSequence",
             "request": "launch",
             "mainClass": "SumofSequence",
