@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringConcatenation",
+            "request": "launch",
+            "mainClass": "StringConcatenation",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumberCount",
+            "request": "launch",
+            "mainClass": "PrimeNumberCount",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch CountCommonCharactersinStrings",
             "request": "launch",
             "mainClass": "CountCommonCharactersinStrings",
