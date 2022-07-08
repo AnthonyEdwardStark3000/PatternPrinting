@@ -3,18 +3,28 @@ public class PrintCharacter{
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        String input;
-        System.out.println("\nEnter the string:");
-        input = sc.nextLine();
-        int number;
-        System.out.println("\nEnter the number:");
-        number = sc.nextInt();
-        int x = number-1;
-        for(int i=x;i<input.length();)
-        {
-            System.out.print(input.charAt(i));
-            i+=number;
+        System.out.println("\nEnter a string :");
+        String input = sc.next();
+        String numbers="";
+        char letter=' ';
+        for(char c: input.toCharArray()){
+            if(!(c>='0'&&c<='9')){
+                if(numbers!=" "){
+                    int n = Integer.parseInt(numbers);
+                    for(int i=0;i<n;i++){
+                        System.out.print(letter);
+                    }
+                }
+                letter=c;
+                numbers="";
+            }
+            else{
+                numbers+=c;
+            }
         }
-
-}
+        int n = Integer.parseInt(numbers);
+                    for(int i=0;i<n;i++){
+                        System.out.print(letter);
+                    }
+    }
 }

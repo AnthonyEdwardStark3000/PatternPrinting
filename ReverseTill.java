@@ -6,7 +6,7 @@ public class ReverseTill{
         String input = sc.nextLine();
         int index = input.indexOf("_");
         if(index==-1){
-            System.out.println(new StringBuffer(input).reverse().toString());
+            System.out.println(new StringBuilder(input).reverse().toString());
         }
         else if(index==0){
            System.out.println(input);

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FrequencyOfNumbers",
+            "request": "launch",
+            "mainClass": "FrequencyOfNumbers",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Xpattern",
+            "request": "launch",
+            "mainClass": "Xpattern",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralMatrix",
+            "request": "launch",
+            "mainClass": "SpiralMatrix",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch StringConcatenation",
             "request": "launch",
             "mainClass": "StringConcatenation",
