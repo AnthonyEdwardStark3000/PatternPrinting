@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeElements",
+            "request": "launch",
+            "mainClass": "MergeElements",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintGCDCount",
+            "request": "launch",
+            "mainClass": "PrintGCDCount",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeadAndlegsCount",
+            "request": "launch",
+            "mainClass": "HeadAndlegsCount",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch printCharacters",
+            "request": "launch",
+            "mainClass": "printCharacters",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch AfollowsB",
             "request": "launch",
             "mainClass": "AfollowsB",
