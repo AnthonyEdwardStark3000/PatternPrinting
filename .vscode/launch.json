@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DiffValue",
+            "request": "launch",
+            "mainClass": "DiffValue",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Distance",
+            "request": "launch",
+            "mainClass": "Distance",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MessageEncryption",
+            "request": "launch",
+            "mainClass": "MessageEncryption",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintArticles",
+            "request": "launch",
+            "mainClass": "PrintArticles",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MessageHashing",
+            "request": "launch",
+            "mainClass": "MessageHashing",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringReverseRecurssion",
+            "request": "launch",
+            "mainClass": "StringReverseRecurssion",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeElements",
             "request": "launch",
             "mainClass": "MergeElements",
