@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OrderByPrimeOddEven",
+            "request": "launch",
+            "mainClass": "OrderByPrimeOddEven",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DistanceOfLine",
+            "request": "launch",
+            "mainClass": "DistanceOfLine",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch WaterCan",
+            "request": "launch",
+            "mainClass": "WaterCan",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeastSavings",
+            "request": "launch",
+            "mainClass": "LeastSavings",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch WrongKeyboard",
+            "request": "launch",
+            "mainClass": "WrongKeyboard",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch StringPassword",
             "request": "launch",
             "mainClass": "StringPassword",
