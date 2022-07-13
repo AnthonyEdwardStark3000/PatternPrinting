@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrangeAlphabets",
+            "request": "launch",
+            "mainClass": "ArrangeAlphabets",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch OrderByPrimeOddEven",
             "request": "launch",
             "mainClass": "OrderByPrimeOddEven",
