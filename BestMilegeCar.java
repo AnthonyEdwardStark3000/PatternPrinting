@@ -6,7 +6,7 @@ public class BestMilegeCar {
         System.out.println("\nEnter the count:");
         int number = sc.nextInt();
         sc.nextLine();
-        int k=1, count=0;
+        int k=1, count=1;
         float ans;
         float[] mileges = new float[number];
         for(int i=0;i<number;i++){
