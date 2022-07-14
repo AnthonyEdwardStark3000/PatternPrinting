@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BestMilegeCar",
+            "request": "launch",
+            "mainClass": "BestMilegeCar",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdamantKid",
+            "request": "launch",
+            "mainClass": "AdamantKid",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrangeAlphabets",
             "request": "launch",
             "mainClass": "ArrangeAlphabets",
@@ -62,6 +76,7 @@
         },
         {
             "type": "java",
+   
             "name": "Launch LeastSum",
             "request": "launch",
             "mainClass": "LeastSum",
