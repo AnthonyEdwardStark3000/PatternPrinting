@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Patternprint1",
+            "request": "launch",
+            "mainClass": "Patternprint1",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch DayCalculator",
             "request": "launch",
             "mainClass": "DayCalculator",
