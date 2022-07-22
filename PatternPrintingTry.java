@@ -137,4 +137,96 @@ public class Main{
     }
 }
 
+     1 
+    2 2 
+   3 3 3 
+  4 4 4 4 
+ 5 5 5 5 5 
+
+ public class Main{
+    public static void main(String[] args)
+    {
+        for(int row=1;row<=5;row++)
+        {
+            for(int space=5;space>=row;space--){
+                System.out.print(" ");
+            }
+            for(int col=1;col<=row;col++)
+            {
+             System.out.print(row+" ");   
+            }
+            System.out.println();
+        }
+    }
+}
+
+     1
+    21
+   321
+  4321
+ 54321
+ 
+ public class Main{
+    public static void main(String[] args)
+    {
+        for(int row=1;row<=5;row++){
+            int printCount = row;
+            for(int space=5;space>=row;space--){
+                System.out.print(" ");
+            }
+            for(int col=1;col<=row;col++)
+            {
+                System.out.print(printCount--);
+            }
+            System.out.println();
+        }
+    }
+}
+
+    A B C D E F G G F E D C B A 
+      B C D E F G G F E D C B 
+        C D E F G G F E D C 
+          D E F G G F E D 
+            E F G G F E 
+              F G G F 
+                G G 
+
+public class Main{
+    public static void main(String[] args)
+    {
+        int div=1;
+        char[] letters = {'G','F','E','D','C','B','A'};
+        for(int row=6;row>=0;row--){
+            for(int spaces=7;spaces>=row;spaces--){
+                System.out.print("  ");
+            }
+            for(int col=row;col>=0;col--){
+                System.out.print(letters[col]+" ");
+            }
+            for(int col=0;col<=row;col++){
+                System.out.print(letters[col]+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+1
+10
+101
+1010
+10101
+
+public class Main{
+    public static void main(String[] args)
+    {
+        for(int row=1;row<=5;row++){
+            for(int col=1;col<=row;col++){
+                System.out.print(col%2);
+            }
+            System.out.println();
+        }
+    }
+}
+
 */
