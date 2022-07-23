@@ -229,4 +229,30 @@ public class Main{
     }
 }
 
+12344321
+123**321
+12****21
+1******1
+
+public class Main{
+    public static void main(String[] args)
+    {
+        for(int row=4;row>=1;row--){
+            for(int col=1;col<=row;col++)
+            {
+                System.out.print(col);
+            }
+            if(row<4){
+                for(int col=3;col>=row;col--){
+                    System.out.print("**");
+                }
+            }
+            for(int col=row;col>=1;col--){
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+    }
+}
+
 */
