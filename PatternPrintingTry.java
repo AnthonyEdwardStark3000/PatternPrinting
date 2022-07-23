@@ -254,5 +254,59 @@ public class Main{
         }
     }
 }
+11 
+12 13 
+13 14 15 
+14 15 16 17 
+
+public class Main{
+    public static void main(String[] args)
+    {
+        int i=0;
+        for(int row=11;row<=14;row++){
+            for(int col=11;col<=row;col++)
+            {
+                System.out.print(row+i+" ");
+                i++;
+            }
+            i=0;
+            System.out.println();
+        }
+    }
+}
+
+Enter a number : 3
+1 4 6 
+2 5 
+3 
+
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number :\n");
+        int input = sc.nextInt();
+        sc.nextLine();
+        int a= input,temp=0,i=input-1;
+        for(int row=1;row<=input;row++){
+            for(int col=input;col>=row;col--)
+            {
+                if(col==input){
+                    System.out.print(row+" ");
+                    
+                }
+                else{
+                   temp = row+a;
+                   a+=i;
+                   System.out.print(temp+" ");
+                   i--;
+                }
+            }
+                a=input;i=input-1;
+            System.out.println();
+        }
+    }
+}
 
 */
