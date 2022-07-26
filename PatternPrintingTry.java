@@ -309,4 +309,73 @@ public class Main{
     }
 }
 
+Enter the number :
+\UUU/
+L\U/R
+LL\RR
+L/K\R
+/KKK\
+
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\nEnter the number :");
+        int input = sc.nextInt();
+        int i=0;
+        for(int row=1;row<=input;row++){
+            for(int col=1;col<=input;col++){
+               if(row==col){
+                   System.out.print("\\");
+               }
+               else if(col==input-i){
+                   System.out.print("/");
+               }
+               else if(row<=input/2 && col!=1 && col!=input){
+                   System.out.print("U");
+               }
+               else if(row>=col-i && col<input/2+1 && row!=input){
+                   System.out.print("L");
+               }
+               else if(row==input||row==input-1 && col>=input/2+1 && col!=input){
+                   System.out.print("K");
+               }
+               else{
+                   System.out.print("R");
+               }
+            }
+               i++;
+            System.out.println();
+        }
+    }
+}
+
+        1
+      1 2 1 
+    1 2  3 2 1 
+  1 2  3  4 3 2 1 
+
+public class MyClass {
+    public static void main(String args[]) {
+        for(int row=1;row<=4;row++){
+            for(int space=4;space>=row;space--){
+                System.out.print("  ");
+            }
+            System.out.print("1");
+            for(int col=2;col<=row;col++)
+            {   
+                System.out.print(" ");
+                System.out.print(col+" ");
+            }
+            if(row>1){
+            for(int col2=row-1;col2>=1;col2--){
+                System.out.print(col2+" ");
+            }
+            }
+            System.out.println();
+        }
+    }
+}
+
 */
