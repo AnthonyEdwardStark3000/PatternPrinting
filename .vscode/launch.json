@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ZohoSubsets",
+            "request": "launch",
+            "mainClass": "ZohoSubsets",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Island",
+            "request": "launch",
+            "mainClass": "Island",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RichestPerson",
+            "request": "launch",
+            "mainClass": "RichestPerson",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearchNumberOfDigits",
+            "request": "launch",
+            "mainClass": "LinearSearchNumberOfDigits",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearchEvenNumberOfDigits",
+            "request": "launch",
+            "mainClass": "LinearSearchEvenNumberOfDigits",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearchIn2DArray",
+            "request": "launch",
+            "mainClass": "LinearSearchIn2DArray",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumNumberLinearSeach",
+            "request": "launch",
+            "mainClass": "MinimumNumberLinearSeach",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearchSearchInrange",
+            "request": "launch",
+            "mainClass": "LinearSearchSearchInrange",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearchStrings",
+            "request": "launch",
+            "mainClass": "LinearSearchStrings",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch LinearSearch",
             "request": "launch",
             "mainClass": "LinearSearch",
