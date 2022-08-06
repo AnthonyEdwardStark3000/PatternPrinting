@@ -378,4 +378,49 @@ public class MyClass {
     }
 }
 
+     *
+    ***
+   *****
+  *******
+ *********
+  *******
+   *****
+    ***
+     *
+
+public class diamond{
+    public static void main(String[] args)
+    {
+        int n=5;
+        for(int row=1;row<=n;row++){
+            for(int space=n;space>=row;space--)
+            {
+               System.out.print(" ");
+            }
+           for(int col=1;col<=row;col++){
+               System.out.print("*");
+           }
+           for(int col2=1;col2<row;col2++)
+           {
+               System.out.print("*");
+           }
+        System.out.println();
+        }
+        for(int row=1;row<=n;row++){
+            for(int space=0;space<=row;space++)
+            {
+               System.out.print(" ");
+            }
+           for(int col=n-1;col>=row;col--){
+               System.out.print("*");
+           }
+           for(int col2=n-1;col2>row;col2--)
+           {
+               System.out.print("*");
+           }
+        System.out.println();
+        }
+    }
+}
+
 */

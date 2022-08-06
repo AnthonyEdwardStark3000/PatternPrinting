@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BusTicketReservation",
+            "request": "launch",
+            "mainClass": "BusTicketReservation",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZohoRailwayTicketReservation",
+            "request": "launch",
+            "mainClass": "ZohoRailwayTicketReservation",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZohoSubArray",
+            "request": "launch",
+            "mainClass": "ZohoSubArray",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZohoTwistedPrimeNumber",
+            "request": "launch",
+            "mainClass": "ZohoTwistedPrimeNumber",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch ZohoSubsets",
             "request": "launch",
             "mainClass": "ZohoSubsets",
