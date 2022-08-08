@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ZohoNearestPrimePalindrome",
+            "request": "launch",
+            "mainClass": "ZohoNearestPrimePalindrome",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
+            "name": "Launch zohoSpiralMatrix",
+            "request": "launch",
+            "mainClass": "zohoSpiralMatrix",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch BusTicketReservation",
             "request": "launch",
             "mainClass": "BusTicketReservation",
