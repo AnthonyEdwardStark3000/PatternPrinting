@@ -423,4 +423,50 @@ public class diamond{
     }
 }
 
+M R . A N T O N 
+            Y   
+          *     
+        E       
+      D         
+    W           
+  A             
+R D * S T A R K 
+                
+
+
+
+public class Main{
+    public static void main(String[] args)
+    {
+        int position =1;
+        String input ="MR.ANTONY*EDWARD*STARK";
+       // System.out.print(input.length());
+        for(int i=1;i<=8;i++)
+        {
+            System.out.print(input.charAt(position-1)+" ");
+            position++;
+        }
+        System.out.println();
+      for(int row=1;row<=8;row++)
+      {
+              position++;
+          for(int col1=1;col1<=8;col1++)
+          {
+              if(col1 == 8-row){
+                  System.out.print(input.charAt(position-2)+" ");
+              }
+              else if(row==7 && col1>=1 && col1<=8){
+                  position++;
+                  System.out.print(input.charAt(position-2)+" ");
+              }
+              else
+              {
+                  System.out.print("  ");
+              }
+          }
+          System.out.println();
+      }
+    }
+}
+
 */

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternPrintingTry",
+            "request": "launch",
+            "mainClass": "PatternPrintingTry",
+            "projectName": "patternprint_64c1b45f"
+        },
+        {
+            "type": "java",
             "name": "Launch ZohoNearestPrimePalindrome",
             "request": "launch",
             "mainClass": "ZohoNearestPrimePalindrome",
