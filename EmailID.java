@@ -112,6 +112,43 @@ import java.io.*;
         System.out.println("Mail Storage            : "+this.mailCapacity+" mb");
         System.out.println("Alternate Mail          : "+this.alternateEmail+" mb");
     }
+
+    public void storefile(){
+        try{
+            FileWriter in = new FileWriter("C:\\Users\\Dell\\Desktop\\JAVA_HOME_WORKS\\practice\\patternprint\\EmailData.txt");
+            in.write("\nFirst Name          :"+this.fname);
+            in.append("\nLast Name           :"+this.lname);
+            in.append("\nEmail               :"+this.email);
+            in.append("\nPassword            :"+this.password);
+            in.append("\nCapacity            :"+this.mailCapacity);
+            in.append("\nDepartment          :"+this.dept);
+            in.append("\nAlternate Email     :"+this.alternateEmail);
+            in.close();
+            System.out.println("The data has successfully been stored in the File.");
+        }
+        catch(Exception e){
+            System.out.println(e);
+        }
+    }
+
+    public void readFile(){
+        try{
+            FileReader fr = new FileReader("C:\\Users\\Dell\\Desktop\\JAVA_HOME_WORKS\\practice\\patternprint\\EmailData.txt");
+            int i;
+            while((i=fr.read())!=-1)
+            {
+                System.out.print((char)i);
+            }
+            System.out.println();
+            fr.close();
+            System.out.println("The data has successfully been read from the File.");
+        }catch(Exception e)
+        {
+            System.out.println(e);
+        }
+
+    }
+
 }
 
 public class EmailID{
@@ -125,7 +162,7 @@ public class EmailID{
         User user = new User(f_name, l_name);
         int choice = -1;
         do{
-           System.out.println("Enter your choice:\n1.Show Basic Info\n2.Change Password\n3.Change Mail capacity\n4.Set Alternate Email");  
+           System.out.println("Enter your choice:\n1.Show Basic Info.\n2.Change Password.\n3.Change Mail capacity.\n4.Set Alternate Email.\n5.Store Data.\n6.Read the data.\n7.Quit.");  
            choice = sc.nextInt();
            switch(choice){
             case 1:
@@ -140,9 +177,18 @@ public class EmailID{
             case 4:
                 user.alternateEmail();
                 break;
+            case 5:
+                user.storefile();
+                break;
+            case 6:
+                user.readFile();
+                break;
+            case 7:
+                System.out.println("Thank you for using the application \n **************\n");    
+                break;
             default:
                 System.out.println("Enter a valid selection:");    
            }
-        }while(choice!=-1);
+        }while(choice!=7);
     }
 }
