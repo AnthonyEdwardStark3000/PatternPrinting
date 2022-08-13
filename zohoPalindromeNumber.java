@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main{
+public class zohoPalindromeNumber{
     static int lengthFinder(int n){
         int count = 0;
         while(n>0){
