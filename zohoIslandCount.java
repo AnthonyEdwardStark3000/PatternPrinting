@@ -25,13 +25,11 @@ class Solution{
         callBFS(val,row,col+1); //right
     }
 }
-public class Island{
+public class zohoIslandCount{
 public static void main(String[] args)
 {
     int[][] numbers = {{1,1,0,0,0}, {1,1,0,0,0}, {0,0,1,0,0}, {0,0,0,1,1}};
     Solution s = new Solution();
     System.out.println(s.numberOfIslands(numbers));
 }
-}public class zohoIslandCount {
-    
 }
